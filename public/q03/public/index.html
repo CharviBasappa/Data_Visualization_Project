@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Visualization Project</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="header-container">
+      <h1>
+          <div>Visualization Project</div>
+      </h1>
+    </div>
+    <ul class="navigation">
+      <li>
+        <b><a href="/q01">Choropleth Map</a></b>
+      </li>
+      <li>
+        <b><a href="/q02">Line Chart</a></b>
+      </li>
+      <li>
+        <b><a href="/q03">Pie Chart</a></b>
+      </li>
+      <li>
+        <b><a href="/q04">Bar Chart</a></b>
+      </li>
+    </ul>
+
+    <div class="pie_chart">
+      <div class="buttons">
+        <button onclick="changeData(2022)">2022 Population</button>
+        <button onclick="changeData(2010)">2010 Population</button>
+        <button onclick="changeData(1990)">1990 Population</button>
+        <button onclick="changeData(1970)">1970 Population</button>
+      </div>
+      <div
+        id="svgContainer"
+        style="width: 800px; height: 400px; margin: auto"
+      ></div>
+    </div>
+    <script src="js/pie.js"></script>
+  </body>
+</html>

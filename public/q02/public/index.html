@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Visualization Project</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="header-container">
+      <h1>
+          <div>Visualization Project</div>
+      </h1>
+    </div>
+    <ul class="navigation">
+      <li>
+        <b><a href="/q01">Choropleth Map</a></b>
+      </li>
+      <li>
+        <b><a href="/q02">Line Chart</a></b>
+      </li>
+      <li>
+        <b><a href="/q03">Pie Chart</a></b>
+      </li>
+      <li>
+        <b><a href="/q04">Bar Chart</a></b>
+      </li>
+    </ul>
+
+    <div class="line_chart">
+      <input type="range" min="1" max="50" value="10" id="slider" />
+      <p>Top <span id="slider-value"></span> countries</p>
+      <svg width="800" height="350"></svg>
+      <div class="tooltip"></div>
+      <script src="js/line.js"></script>
+    </div>
+  </body>
+</html>

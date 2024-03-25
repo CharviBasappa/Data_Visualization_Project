@@ -1,0 +1,144 @@
+body {
+  background-image: url("../pictures/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #f2f3f6;
+  min-height: 100%;
+  font-family: "Verdana", sans-serif;
+}
+
+h1 {
+  margin: 0;
+  font-size: 20px;
+}
+svg {
+  font-family: Arial, sans-serif;
+}
+
+path {
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+path:hover {
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+text {
+  font-size: 14px;
+  fill: #000;
+  text-anchor: middle;
+  pointer-events: none;
+}
+
+#tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 8px;
+  pointer-events: none;
+  font-size: 14px;
+  opacity: 0;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+body {
+  background-color: #f2f3f6;
+  min-height: 100%;
+  font-family: "Verdana", sans-serif;
+}
+
+h1 {
+  margin: 0;
+  font-size: 21px;
+}
+
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header-container h1 {
+  text-align: center;
+  margin: 0;
+  padding: 15px 0;
+}
+
+.header-container h4 {
+  text-align: center;
+  margin: 0;
+  padding: 2px 0;
+  font-size: 19px;
+}
+
+.container h6 {
+  text-align: center;
+  margin: 0;
+  padding: 8px;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.logo h1 {
+  margin: 0;
+}
+
+.navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.navigation li {
+  display: inline;
+}
+
+.navigation li a {
+  color: #080000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navigation a {
+  text-decoration: none;
+  padding: 8px 15px;
+  transition: background-color 0.3s;
+}
+
+.navigation li a:hover {
+  color: rgb(255, 0, 0);
+}
+
+.pie_chart {
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #4d8dc4;
+  box-shadow: 1px 1px 15px #000000;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

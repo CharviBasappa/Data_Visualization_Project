@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<head>
+    <title>Visualization Project</title>
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+  <link rel="stylesheet" href="/q01/public/css/style.css" />
+</head>
+
+<body>
+  <div class="header-container">
+    <h1>
+      <div>Visualization Project</div>
+    </h1>
+  </div>
+  <ul class="navigation">
+    <li>
+      <b><a href="/q01">Choropleth Map</a></b>
+    </li>
+    <li>
+      <b><a href="/q02">Line Chart</a></b>
+    </li>
+    <li>
+      <b><a href="/q03">Pie Chart</a></b>
+    </li>
+    <li>
+      <b><a href="/q04">Bar Chart</a></b>
+    </li>
+  </ul>
+  <div class="map">
+    <svg id="my_dataviz" width="800" height="450"></svg>
+    <script src="js/choropleth.js"></script>
+  </div>
+</body>
